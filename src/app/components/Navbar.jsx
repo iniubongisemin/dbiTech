@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import ThemeSwitch from './ThemeSwitch';
 
-
 export default function Navbar() {
   // State to manage the visibility of the mobile menu
   const [mobileMenuVisible, setMobileMenuVisible] = useState(true);
@@ -25,7 +24,7 @@ export default function Navbar() {
       <aside className='flex items-center gap-x-0'>            
         <Image src='/images/logo.png' alt='brand logo' width={101} height={70} className='relative left-2 p-0 m-0'/>            
         <Link href={`/`}>
-          <h3 className='relative'>Seafood.co</h3>
+          <h3 className='relative'>dbi Technologies</h3>
         </Link>
       </aside>
 
@@ -48,11 +47,6 @@ export default function Navbar() {
             {/* About link */}
             <Link href='/about' className='sm:block'>                
               <li>About</li>
-            </Link>
-
-            {/* Shop link */}
-            <Link href='/shop' className='sm:block'>                
-              <li>Shop</li>
             </Link>            
 
             {/* Sign-in link */}

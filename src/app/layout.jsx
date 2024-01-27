@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-import './globals.css'
+import './styles/globals.css'
 import Navbar from './components/Navbar'
 import { Providers } from './Providers'
 import { Metadata } from 'next'
