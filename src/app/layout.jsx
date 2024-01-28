@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import './styles/globals.css'
 import Navbar from './components/Navbar'
+import Index from './components/Index'
 import { Providers } from './Providers'
 import { Metadata } from 'next'
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
           <Providers>
             <Navbar />
             <main>
+              <Index />
               {children}            
             </main>
           </Providers>          
